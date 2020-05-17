@@ -1,0 +1,37 @@
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 15px;
+    transition: .3s;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+.body:last-of-type{
+    margin-bottom: 0;
+}
+.body:hover{
+    background-color: #F6F6F6;
+}
+.body.active{
+    background-color: #ECECEC;
+}
+.body span{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3A3A3A;
+}
+.ico{
+    width: 23px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+.ico img{
+  width: 100%;
+}

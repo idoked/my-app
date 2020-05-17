@@ -1,0 +1,31 @@
+.body{
+    display: none;
+    max-width: 75%;
+    margin: auto;
+    padding: 70px 0;
+  }
+  .show{
+      display: block;
+  }
+  .header{
+    box-sizing: content-box;
+    display: flex;
+    height: 50px;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 45px;
+  }
+  .title{
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    top: -3px;
+    color: #3A3A3A;
+  }
+  .ico{
+    margin-right: 15px;
+  }
+  .ico img{
+      width: 30px;
+  }
